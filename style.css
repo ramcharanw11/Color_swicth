@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optionally, set a height for vertical centering */
+}
+
+.box {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 0 10px; /* Adjust this value to control the space between boxes */
+}
+
+#color1 {
+    border: 2px solid red;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+#color2 {
+    border: 2px solid orange;
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+}
+
+#color3 {
+    border: 2px solid green;
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+#color4 {
+    border: 2px solid black;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+h1{
+    text-align: center;
+    margin-top: -300px;
+}
